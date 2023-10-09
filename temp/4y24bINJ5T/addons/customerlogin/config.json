@@ -1,0 +1,48 @@
+{
+   "name":"Customer Login",
+   "unique_identifier":"customer_login",
+   "version":"3.0",
+   "addon_banner":"customer_login.jpg",
+   "minimum_item_version":"3",
+   "type":"1",
+   "directory":"",
+   "sql_file":"",
+   "files":[
+      {
+         "root_directory"    : "addons/customerlogin/Controllers/addons/CustomerController.php",
+         "update_directory"  : "app/Http/Controllers/addons/CustomerController.php"
+      },
+      {
+          "root_directory"    : "addons/customerlogin/routes/customers.php",
+          "update_directory"  : "routes/customers.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/admin/customers/index.blade.php",
+         "update_directory":"resources/views/admin/customers/index.blade.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/admin/customers/orders.blade.php",
+         "update_directory":"resources/views/admin/customers/orders.blade.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/admin/sociallogin/social_settings.blade.php",
+         "update_directory":"resources/views/admin/sociallogin/social_settings.blade.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/front/auth/forgotpassword.blade.php",
+         "update_directory":"resources/views/front/auth/forgotpassword.blade.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/front/auth/login.blade.php",
+         "update_directory":"resources/views/front/auth/login.blade.php"
+      },
+      {
+         "root_directory":"addons/customerlogin/views/front/auth/register.blade.php",
+         "update_directory":"resources/views/front/auth/register.blade.php"
+      },
+      {
+          "root_directory"    : "addons/customerlogin/assets/customer_login.jpg",
+          "update_directory"  : "storage/app/public/addons/customer_login.jpg"
+      }
+   ]
+}
